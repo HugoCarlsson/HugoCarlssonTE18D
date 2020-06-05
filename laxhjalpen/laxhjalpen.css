@@ -1,0 +1,168 @@
+@CHARSET "UTF-/8";
+body {
+    margin: auto; /* Centrera sidan */
+    width: 860px;
+    font-family: "Helvetica Neue", "Liberation Sans", Calibri, Arial, sans-serif;
+    font-size: 100%;
+    background: rgb(116, 109, 109); 
+}
+.slider{
+  position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(59, 66, 68), rgb(0, 0, 0));
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 880px){
+  body {
+    width: 700px;
+  }
+  }
+  @media screen and (max-width: 730px){
+    .startpage {
+     width:650px;
+    }
+    }
+    @media screen and (max-width: 670px){
+      .startpage {
+       width: 600px;
+      }
+      }
+      
+    @media screen and (max-width: 630px){
+      .startpage {
+       width: 500px;
+      }
+      }
+      @media screen and (max-width: 530px){
+        body {
+          width: 480px;
+        }
+        }
+        @media screen and (max-width: 500px){
+          body {
+            width: 450px;
+          }
+          }
+        @media screen and (max-width: 480px){
+          body {
+            width: 430px;
+          }
+          }
+      @media screen and (max-width: 440px){
+        body {
+          width: 400px;
+        }
+        }
+      @media screen and (max-width: 390px){
+        body {
+         width: 300px;
+        }
+        }
+header {
+    box-shadow: 0 2px 25px 1px #ffc918;
+    display: flexbox;
+  flex-flow: wrap;
+  text-align: center;
+    padding: 20px 0 0;
+    border-radius: 65%;
+}
+
+.startpage .logo {
+    width: 205px;
+    height: 188px;
+    border-radius: 20%;
+}
+@media screen and (max-width: 1000px){
+   .starpage .logo {
+    width: 20px;
+    height: 10px;
+    border-radius: 20%;
+  }
+  }
+.startpage> section > h1 {
+    font-size: 500%; /* massiv rubrik*/
+}
+.tagline {
+    font-size: 150%;
+    padding: 0,5em;
+    margin: 50px 0;
+    color: rgb(119, 0, 255);    
+}
+.tagline:hover{
+  color: #eeff00;
+  transition: 0.6s;
+}
+
+.startpage > section {
+    display: inline-block;
+    width: 20%;
+margin-right: 6%;
+vertical-align: top;
+
+}
+
+.startpage > section:last-of-type {
+margin-right: 0;
+}
+h1 {
+font-family: 'merienda One', cursive;
+display: inline-block;
+margin: 0;
+color: rgb(119, 0, 255);;
+}
+
+h1:first-letter {
+color: #eeff00;
+font-size: 80px;
+}
+.startpage > section > h2 {
+margin: 0 0 1em;
+padding:1.75em 0;
+background-color:rgb(241, 245, 231);
+text-align: center;
+box-shadow: inset 0 0 40px #eeff00;
+border-radius: 50%;
+font-family: 'merienda One', cursive;
+transition: 0.9s;
+}
+footer {
+    display: block;
+    margin-top: 3em;
+    text-align: center;
+    color: rgb(119, 0, 255); 
+}
+.menu a:link,
+.menu a:visited {
+text-decoration: none;
+color: rgb(119, 0, 255);
+}
+.menu a:focus,
+.menu a:hover {
+color: rgb(58, 3, 109);
+}
+
+.hwrap > a{
+margin-right: 30px;
+}
+.startpage > header h1{
+vertical-align: 53%;
+}
+p{
+  color: #f6ff7d;
+}
+a {
+  text-decoration: none;
+  transition: 0.7s;
+}
+h1:hover {
+  color: yellow;
+  transition: 0.6s;
+}
+h2:hover{
+  color: #eeff00;
+  transition: 0.6s;
+}
